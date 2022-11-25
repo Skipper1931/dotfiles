@@ -17,7 +17,7 @@ nnoremap <C-l> <C-w>l
 " Plugins (courtsey of VimPlug)
 call plug#begin()
 	Plug 'preservim/nerdtree' 			" NERDTree
-	Plug 'sheerun/vim-polyglot'
+	Plug 'sheerun/vim-polyglot'			" Polyglot (Syntax highlighting for pretty much any lang)
 	Plug 'tpope/vim-surround' 			" surround.vim (plugin for parenthesis, quotes, html/xml tags, etc)
 	Plug 'neoclide/coc.nvim', {'branch': 'release'} " CoC code completion
 	Plug 'vim-airline/vim-airline'		" Airline statusline
