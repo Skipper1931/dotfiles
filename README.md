@@ -1,9 +1,9 @@
-# How to install
+## How to install
 `cd ~`
 
 `echo ".cfg" >> .gitignore`
 
-`git clone https://github.com/Skipper1931/dotfiles.git ./.dotfiles-git`
+`git clone git@github.com:Skipper1931/dotfiles.git ./.dotfiles-git`
 
 `alias dotfiles='git --git-dir=$HOME/.dotfiles-git/ --work-tree=$HOME'`
 
