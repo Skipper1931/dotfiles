@@ -11,3 +11,5 @@ export CLICOLOR=1
 
 # Alias git commands for dotfiles repo
 alias dotfiles='git --git-dir=$HOME/.dotfiles-git/ --work-tree=$HOME'
+
+./.zshrc_unique
