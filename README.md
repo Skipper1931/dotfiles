@@ -3,7 +3,7 @@
 
 `echo ".cfg" >> .gitignore`
 
-`git clone git@github.com:Skipper1931/dotfiles.git ./.dotfiles-git -bare`
+`git clone git@github.com:Skipper1931/dotfiles.git ./.dotfiles-git --bare`
 
 `alias dotfiles='git --git-dir=$HOME/.dotfiles-git/ --work-tree=$HOME'`
 
