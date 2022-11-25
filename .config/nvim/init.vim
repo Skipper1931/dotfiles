@@ -32,4 +32,8 @@ call plug#begin()
     Plug 'puremourning/vimspector'      " Vimspector debugging
 call plug#end()
 
-source $HOME/.config/nvim/coc.vim " Import CoC config
+" Import CoC config
+source $HOME/.config/nvim/coc.vim 
+
+" Set keybinds for Vimspector
+let g:vimspector_enable_mappings = 'HUMAN'
