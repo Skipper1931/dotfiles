@@ -1,0 +1,9 @@
+[init]
+    defaultbranch=main
+
+[user]
+    name=Skipper1931
+    email=lordskipper1931@gmail.com
+
+[alias]
+    graph=log --oneline --graph
