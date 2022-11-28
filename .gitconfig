@@ -10,3 +10,4 @@
 
 [pager]
     branch=false
+    config=false
