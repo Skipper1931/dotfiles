@@ -7,3 +7,6 @@
 
 [alias]
     graph=log --oneline --graph
+
+[pager]
+    branch=false
